@@ -36,6 +36,7 @@ Within each notebook, specify the file to be read and the final name of the outp
 - Python
 - Jupyter Notebook
 - Pandas
+- Numpy
 
 ## Contribution
 Contributions are welcome! Please open an issue or submit a pull request to contribute to the project.
