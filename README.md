@@ -7,6 +7,8 @@ This project performs the transformation of various types of log files into an e
 <pre>
 taxone-lata-ai-extraction/ 
 ├── requirements.txt
+└── data/
+└── output/
 └── src/
     ├── convert-cpu-logs.ipynb
     ├── convert-oracle-logs.ipynb
@@ -24,9 +26,11 @@ To install the project dependencies, run: <code> pip install -r requirements.txt
 ## Usage
 Within each notebook, specify the file to be read and the final name of the output file. The files will be processed and generated in the expected output format, being split every 100k lines.
 
-1. Open the desired notebook (`convert-cpu-logs.ipynb`, `convert-oracle-logs.ipynb`, or `convert-reqs-logs.ipynb`) in Jupyter Notebook or JupyterLab.
-2. Modify the input and output variables as needed.
-3. Run all cells in the notebook to process the files.
+1. Place your file in the **data** folder.
+2. Open the desired notebook (`convert-cpu-logs.ipynb`, `convert-oracle-logs.ipynb`, or `convert-reqs-logs.ipynb`) in Jupyter Notebook or JupyterLab.
+3. Modify the data_file_path and origin_json variables as needed.
+4. Run all cells in the notebook to process the files.
+5. The files will be generated in the **output** folder.
 
 ## Technologies Used
 - Python
