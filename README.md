@@ -19,11 +19,7 @@ taxone-lata-ai-extraction/
 - **convert-reqs-logs.ipynb**: Transforms files containing requests from Datadog.
 
 ## Installation
-To install the project dependencies, run:
-
-<code>
-sh pip install -r requirements.txt
-</code>
+To install the project dependencies, run: <code> pip install -r requirements.txt </code>
 
 ## Usage
 Within each notebook, specify the file to be read and the final name of the output file. The files will be processed and generated in the expected output format, being split every 100k lines.
